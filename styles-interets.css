@@ -1,0 +1,160 @@
+/* STYLES INTERETS */
+
+#interets-section {
+    margin: auto 2vw;
+    width: 94.5%;
+}
+
+#interets-section h1 {
+    margin-left: 6%;
+    color: #60605c;
+}
+
+#interets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.subinterets {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.item-interets {
+    width: 85%;
+    background-color: var(--color1);
+    border-radius: 11px;
+    padding: 0 0.5vw 0.6vw;
+    margin: 0 5vw 1.1em;
+}
+
+.item-interets i {
+    color: #4d4d49;
+    padding-right: 0.4em;
+}
+
+.item-interets h2 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 350;
+    color: #2e2e2b;
+    padding-top: 0.6em;
+    margin: 0;
+}
+
+.parag {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+#hobbys h3 {
+    font-weight: 350;
+    font-size: 21px;
+    margin-bottom: 0.7em;
+    padding: 0 1.5vw;
+}
+
+#competences h3 {
+    font-weight: 350;
+    font-size: 21px;
+    padding-left: 5vw;
+    margin-bottom: 0.7em;
+}
+
+.item-interets li,
+.item-interets p {
+    font-weight: 300;
+    margin-bottom: 0.4em;
+    font-size: 18px;
+}
+
+
+#interets .separation-line {
+    width: 30% !important;
+}
+
+#sportsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 1em 0;
+    padding-left: 2vw;
+    width: 80%;
+}
+
+#hobbys p {
+    margin: 0;
+
+}
+
+#otherp {
+    padding: 1em 2vw 0;
+}
+
+
+#contenu-lang {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: repeat(4, auto);
+    gap: 0.4em 0.1vw;
+    margin: 2em auto 1.5vh;
+    width: 80%;
+    max-width: 280px;
+}
+
+.lang-icons {
+    padding: 0;
+    margin: 0;
+    height: 3em;
+}
+
+
+.boldy {
+    font-weight: 350;
+}
+
+.lang-desc {
+    padding-top: 0.5em;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.2em !important;
+}
+
+#competences h2 {
+    padding-top: 1em !important;
+}
+
+#competences div {
+    padding: 2vh 5vw !important;
+}
+
+#competences div ul {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 40em;
+}
+
+#competences div ul li {
+    padding: 0.06em 0;
+}
+
+#competences div ul::before {
+    content: '';
+    position: absolute;
+    left: -1em;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--color2);
+}
+
+#competences div ul h3 {
+    position: relative;
+    left: 0;
+}

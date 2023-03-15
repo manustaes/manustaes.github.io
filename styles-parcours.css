@@ -1,0 +1,177 @@
+/* STYLES PARCOURS */
+
+#parcours-section {
+    margin: auto 2vw;
+    width: 97.5%;
+
+}
+
+#parcours-section h1 {
+    margin-left: 6%;
+    color: #60605c;
+}
+
+
+#parcours-section h2,
+#parcours-section h3 {
+    color: var(--parcours-text-color);
+}
+
+
+#parcours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1vw;
+}
+
+.parcours-title-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 i {
+    padding-right: 2%;
+    color: var(--color6);
+}
+
+.parcours-title-div i {
+    font-size: 2em;
+}
+
+
+i.left {
+    padding-right: 3.5%;
+}
+
+i.right {
+    padding-right: 3.5%;
+    transform: scaleX(-1);
+}
+
+#autres-exp i.left {
+    padding-right: 2.5%;
+}
+
+#autres-exp i.right {
+    padding-right: 2.5%;
+    transform: scaleX(-1);
+}
+
+.item-parcours {
+    width: 32%;
+    background-color: var(--color1);
+    border-radius: 11px;
+    padding: 0 0.9vw;
+}
+
+.item-parcours i {
+    color: #4d4d49;
+}
+
+.item-parcours p,
+.item-parcours li {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.item-parcours p {
+    font-size: 19px;
+}
+
+.item-parcours li {
+    margin-bottom: 0.4em;
+    font-size: 18px;
+}
+
+.item-parcours ul {
+    padding-left: 0;
+}
+
+
+.item-parcours h2 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 350;
+    color: #2e2e2b;
+}
+
+.item-parcours h3 {
+    font-weight: 350;
+}
+
+.item-parcours a {
+    text-decoration: none;
+    font-weight: 350;
+    color: var(--parcours-text-color);
+
+}
+
+.item-parcours a:visited {
+    color: var(--parcours-text-color);
+}
+
+.item-parcours a:hover {
+    font-weight: 300;
+}
+
+
+
+h3.titre {
+    font-size: 29px;
+    text-align: center !important;
+    margin-bottom: 0.7em;
+}
+
+.titre i {
+    padding-right: 0.6em;
+    font-size: 1.1em;
+}
+
+div.title-item h3:not(.titre) {
+    font-size: 21px;
+    margin: 0 0 0.4em;
+    text-align: center;
+}
+
+.bullet {
+    font-size: 1.05em;
+    color: var(--highlight-color) !important;
+    padding-right: 0.5em;
+}
+
+.highlighted {
+    color: var(--highlight-color);
+    font-weight: 400;
+}
+
+
+.fa-bullseye {
+    color: rgb(179, 90, 90) !important;
+    padding-right: 0.3em;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.separation-line {
+    width: 75%;
+    height: 2px;
+    background-color: var(--color4);
+    box-shadow: 0 0 2px 0px var(--color4);
+    margin: 5% auto;
+}
+
+.subtitline {
+    width: 85%;
+    margin: 2% auto;
+}
+
+.tinyline {
+    height: 1px;
+}

@@ -1,0 +1,75 @@
+/* STYLES */
+
+@import url("/styles-variables.css");
+@import url("/styles-header.css");
+@import url("/styles-welcome.css");
+@import url("/styles-parcours.css");
+@import url("/styles-interets.css");
+@import url("/styles-projects.css");
+@import url("/styles-contact.css");
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+li,
+a {
+    font-family: Segoe UI, Tahoma, Helvetica;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 60px;
+}
+
+h1 {
+    letter-spacing: 3px;
+}
+
+h2,
+h3 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+html {
+    background-color: var(--background-color-hmtl);
+}
+
+body {
+    margin: 0;
+    padding-top: 0;
+}
+
+main {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+section:not(:first-child) {
+    padding-top: calc(var(--header-height) + 3vh);
+}
+
+
+.subdiv {
+    padding-top: 0.1vh;
+    background-color: var(--color4);
+    border-radius: 20px;
+}
+
+
+
+.subdivLAST {
+    padding-top: 0.1vh;
+    background-color: var(--color4);
+}

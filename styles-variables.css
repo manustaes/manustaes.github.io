@@ -1,0 +1,21 @@
+/* STYLES VARIABLES */
+
+:root {
+    /* main palette */
+    --color1: #d4d4c7;
+    --color2: #e7e6d0;
+    --color3: #dddcc8;
+    --color4: #e8e7e5;
+    --color5: #dcd3bf;
+    --color6: #b0a898;
+
+    --background-color-hmtl: #bfc8dc;
+    --background-color-welcome: #d9e1c4;
+
+    --parcours-text-color: #262624;
+    --highlight-color: #5d73a6;
+
+    --header-height: 115px;
+
+    --tb-padding-welcome: 8vh;
+}
