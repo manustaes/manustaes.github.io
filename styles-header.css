@@ -45,6 +45,7 @@ header {
 #moi {
     height: calc(var(--header-height) * 0.8);
     border-radius: 50%;
+    object-fit: contain;
 }
 
 
